@@ -15,7 +15,7 @@ while play == True:
     while pcs<3 and pls<3:
         pc = random.choice(list)
         player=str(input("Digite a sua jogada, por favor \n"))
-        print("O computador jogou" + pc)
+        print("O computador jogou:" + pc)
         
         if pc=="pedra" and (player=="tesoura" or "lagarto"):
             pcs+=1
